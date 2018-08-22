@@ -5,15 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Homemade+Apple|Lato|Open+Sans+Condensed:300" rel="stylesheet">
     <link media="all" rel="stylesheet" href="./styles/index.scss" />
+
+
     <title>Hello world</title>
 </head>
 
 <body>
 
-<h1>This is a test</h1>
+<header id="header">
+    <img src="https://www.hellodeborah.co.uk/app/themes/debbie-theme-2016/dist/images/logo.png" id="header-img"></img>
+    <p id="header-copy">A conscious parenting blog</p>
+    <nav id="navbar">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">ABOUT</a>
+                    <a class="dropdown-item" href="#">WORK WITH ME</a>
+                    <a class="dropdown-item" href="#">CONTACT ME</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAMILY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LIVING</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOW WASTE</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
+<main id="home-main">
+
+    <!-- CATEGORIES -->
+
+    <div id="home-categories" class="row">
+        <div class="col-2"> </div>
+        <div class="col"><img src="https://i2.wp.com/www.raisingsimple.com/wp-content/uploads/2018/01/priscilla-du-preez-234138.jpg?resize=400%2C400&ssl=1" class="category-img">
+            <button class="btn">Family</button></div>
+        <div class="col">
+            <img src="https://i2.wp.com/www.raisingsimple.com/wp-content/uploads/2018/01/priscilla-du-preez-234138.jpg?resize=400%2C400&ssl=1" class="category-img">
+            <button class="btn">Low waste</button>
+        </div>
+        <div class="col">
+            <img src="https://i2.wp.com/www.raisingsimple.com/wp-content/uploads/2018/01/priscilla-du-preez-234138.jpg?resize=400%2C400&ssl=1" class="category-img">
+            <button class="btn">Conscious Living</button>
+        </div>
+        <div class="col-2"> </div>
+    </div>
+
+    <!-- ABOUT-->
+    <div id="home-blurb" class="row">
+        <div class="col-2"> </div>
+        <div class="col-3 about-me-copy">
+            <h2>Hi, I'm Debbie</h2>
+            <br/>
+            <p>Welcome to Hello Deborah, a blog about motherhood, my low waste journey, our adventures and generally trying to live a little more consciously.</p>
+            <p>I'm a writer, crafter and mama living in the Hampshire countryside with my husband and daughter. I'm often found deep in a book or flour, or with a crochet hook in hand.</p>
+        </div>
+        <div class="col-5 about-me-img">
+            <img src="https://www.hellodeborah.co.uk/app/uploads/2016/07/IMG_3861-1024x683.jpg">
+        </div>
+        <div class="col-2"> </div>
+    </div>
+
+    <!-- SOCIAL MEDIA LINKS -->
+    <div id="social-links">
+        <h2 class="social-copy">Connect with me</h2>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+
+    <!-- FEATURED VIDEO -->
+
+    <div id="feat-video" class="row">
+        <div class="col-2"> </div>
+        <div id="youtube-link" class="col-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZLO8yv4K6E4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <div class="col-3 video-copy">
+            <h2>Featured video</h2>
+            <p>A plastic free period? Here's my experience of using a menstrual cup for the first time.</p>
+            <button class="btn">More videos</button>
+
+        </div>
+        <div class="col-2"> </div>
+    </div>
+
+    <div>
+        <h2 id="feat-posts-header">Latest Posts</h2>
+
+
+        <!-- FEATURED POST 1 -->
+        <div class="feat-posts row">
+            <div class="col-2"> </div>
+            <div class="col-3"><img class="feat-posts-img" src="https://i2.wp.com/www.raisingsimple.com/wp-content/uploads/2018/01/priscilla-du-preez-234138.jpg?resize=400%2C400&ssl=1 "></div>
+            <div class="col-5 feat-posts-copy">
+                <h3>Post title</h3>
+                <p>Lorem ipsum dolor sit amet, iusto dicant nam ex, eos duis harum ut. Ius sale magna eu, vim id dictas deterruisset, movet copiosae reprimique mel eu. Id mel odio propriae efficiendi, ex ludus vivendo vel. Ex partiendo petentium mel, eos sumo accumsan
+                    ex, movet invidunt complectitur duo an. An nonumy consul vivendo duo. Ad amet paulo vis, has et everti facilis deseruisse.
+                </p>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+
+        <!-- FEATURED POST 2 -->
+        <div class="feat-posts row">
+            <div class="col-2"> </div>
+            <div class="col-3"><img class="feat-posts-img" src="https://i2.wp.com/www.raisingsimple.com/wp-content/uploads/2018/01/priscilla-du-preez-234138.jpg?resize=400%2C400&ssl=1 "></div>
+            <div class="col-5 feat-posts-copy">
+                <h3>Post title</h3>
+                <p>Lorem ipsum dolor sit amet, iusto dicant nam ex, eos duis harum ut. Ius sale magna eu, vim id dictas deterruisset, movet copiosae reprimique mel eu. Id mel odio propriae efficiendi, ex ludus vivendo vel. Ex partiendo petentium mel, eos sumo accumsan
+                    ex, movet invidunt complectitur duo an. An nonumy consul vivendo duo. Ad amet paulo vis, has et everti facilis deseruisse.
+                </p>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <button class="btn prev-posts-btn">Previous posts</button>
+    </div>
+</main>
+
+<footer id="blog-footer">
+    <div>
+        <p>All content copyright © 2018 Deborah Dann – Design by Hello Deborah</p>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="./scripts/index.js"></script>
+
+
 </body>
 
 </html>
