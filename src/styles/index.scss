@@ -74,6 +74,16 @@ a {
   display:none;
 }
 
+/* FOOTER */
+
+.blog-footer {
+  background-color: #fadbc5;
+  text-align: center;
+  margin-top: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
 /* BLURB */
 
 #home-blurb {
@@ -215,15 +225,7 @@ a {
   margin: 60px auto;
 }
 
-/* FOOTER */
 
-.blog-footer {
-  background-color: #fadbc5;
-  text-align: center;
-  margin-top: 80px;
-  height: 80px;
-  line-height: 80px;
-}
 
 /* QUOTES */
 
@@ -290,4 +292,7 @@ blockquote {
 .post-ollist {
   margin-left: 1em;
 }
+
+
+/* BLOG POST AND CATEGORIES PAGE */
 
