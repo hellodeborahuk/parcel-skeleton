@@ -106,10 +106,33 @@ a {
 }
 .category-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  width: 100%;
   margin-top: 60px;
+  object-fit: cover;
+}
+
+@-webkit-keyframes cat-box {
+  0%   { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes cat-box {
+  0%   { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+@-o-keyframes cat-box {
+  0%   { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+@keyframes cat-box {
+  0%   { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.cat-box {
+  -webkit-animation: cat-box 2s; /* Safari 4+ */
+  -moz-animation:    cat-box 2s; /* Fx 5+ */
+  -o-animation:      cat-box 2s; /* Opera 12+ */
+  animation:         cat-box 2s; /* IE 10+, Fx 29+ */
 }
 
 /* Style the button and place it in the middle of the container/image */
